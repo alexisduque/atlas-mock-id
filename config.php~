@@ -1,6 +1,6 @@
 <?php
 
-$redirect_url = "http://eppudoo.com/";
+$redirect_url = "eppudoo.com";
 $site_key = "localhost";
 $api_key = "1234567890abcdef";
 
@@ -21,7 +21,13 @@ $users = array(
 			"uid" => "user",
 			"user_email" => "user@openmrs.org",
 			"user_name" => "OpenMRS User",
-			"password" => "user")
-);
-
+			"password" => "user"),
+			
+	
+	"Shekhar" => array(
+		"uid" => "shekhar",
+		"user_email" => "shekharreddy.kmit@gmail.com",
+		"user_name" => "Shekhar",
+		"password" => "reddy"),
+	);
 ?>
