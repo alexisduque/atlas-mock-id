@@ -10,7 +10,7 @@ if ($user == null || $mdp == null){
  	exit();
 }
 
-if (isset ($users[$user]['password']) && $users[$user]['password'] == $mdp){
+if ($users[$user]['password'] == $mdp){
 
 	$entity = json_encode($users[$user]);
 
