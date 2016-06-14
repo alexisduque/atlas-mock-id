@@ -1,6 +1,6 @@
 <?php
 
-$redirect_url = "http://eppudoo.com/";
+$redirect_url = "http://openmrsatlas.local/";
 $site_key = "localhost";
 $api_key = "1234567890abcdef";
 
